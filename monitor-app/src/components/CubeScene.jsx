@@ -18,7 +18,7 @@ class CubeScene extends Component {
     this.renderer.setClearColor("#000000");
     this.renderer.setSize(width, height);
     this.mount.appendChild(this.renderer.domElement);
-    //ADD CUBE
+    //add cube
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const material = new THREE.MeshBasicMaterial({ color: "#433F81" });
     this.cube = new THREE.Mesh(geometry, material);

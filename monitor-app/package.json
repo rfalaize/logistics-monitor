@@ -6,7 +6,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "0.9.5",
-    "three.js": "^0.77.1"
+    "three": "^0.104.0"
   },
   "devDependencies": {},
   "scripts": {
